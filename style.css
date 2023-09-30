@@ -1,64 +1,107 @@
 /* Stylize the universal selector */
 
 * {
-    border: 1px solid black;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
+/* Add style to the type selector */
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
 /* Add style to the grouping selector */
 
-.header, .content, .footer {}
+.header, .content, .footer {
+    display: flex;
+}
 
 /* Add style to the grouping selector */
 
-.header, .footer {}
+.header, .footer {
+    flex: 1; 
+    background: black;
+}
+
+/* Add style to the type selector */
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    align-items: center;
+}
+
+/* Add style to the type selector */
+
+li {
+    list-style: none;
+}
+
+/* Add style to the type selector */
+
+a {
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
 
 /* Add style to the class selector */
 
-.header {}
-
-/* Add style to the type selector */
-
-ul {}
-
-/* Add style to the type selector */
-
-li {}
-
-/* Add style to the type selector */
-
-a {}
+.content {
+    flex: 15;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
 
 /* Add style to the class selector */
 
-.content {}
-
-/* Add style to the class selector */
-
-.logo {}
+.logo {
+    width: 190px;
+}
 
 /* Add style to the type selector */
 
-img {}
+img {
+    max-width: 100%;
+}
 
 /* Add style to the class selector */
 
-.name {}
+.name {
+    font-size: 50px;
+    width: 300px;
+    text-align: center;
+}
 
 /* Add style to the type selector */
 
-input {}
+input {
+    width: 700px;
+    height: 45px;
+    padding: 0 16px;
+    font-size: 18px;
+    border-radius: 5px;
+}
 
 /* Add style to the type selector */
 
-button {}
-
-/* Add style to the class selector */
-
-.footer {}
+button {
+    border-radius: 5px;
+}
 
 /* Add style to the class */
 
-.flex-container-btn {}
+.flex-container-btn {
+    display: flex;
+    height: 40px;
+    width: 288px;
+    gap: 10px;
+}
