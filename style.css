@@ -9,42 +9,42 @@
 
 /* Add style to the grouping selector */
 
-
+.header, .content, .footer {}
 
 /* Add style to the grouping selector */
 
-
-
-/* Add style to the class selector */
-
-
-
-/* Add style to the type selector */
-
-
-
-/* Add style to the type selector */
-
-
-
-/* Add style to the type selector */
-
-
+.header, .footer {}
 
 /* Add style to the class selector */
 
-
-
-/* Add style to the class selector */
-
-
+.header {}
 
 /* Add style to the type selector */
 
+ul {}
 
+/* Add style to the type selector */
+
+li {}
+
+/* Add style to the type selector */
+
+a {}
 
 /* Add style to the class selector */
 
+.content {}
 
+/* Add style to the class selector */
+
+.logo {}
+
+/* Add style to the type selector */
+
+img {}
+
+/* Add style to the class selector */
+
+.name {}
 
 /* Add style to the class selector */
