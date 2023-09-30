@@ -79,6 +79,8 @@ img {
     font-size: 50px;
     width: 300px;
     text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
 }
 
 /* Add style to the type selector */
