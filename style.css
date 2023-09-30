@@ -31,10 +31,9 @@ body {
 
 ul {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex: 1;
     align-items: center;
-    padding: 0 10px;
 }
 
 /* Add style to the type selector */
